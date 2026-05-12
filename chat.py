@@ -8,7 +8,7 @@ load_dotenv()
 
 
 endpoint = "https://models.github.ai/inference"
-model = "openai/gpt-5"
+model = "deepseek/DeepSeek-V3-0324"
 token = os.environ["GITHUB_TOKEN"]
 
 client = ChatCompletionsClient(
