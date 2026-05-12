@@ -1,2 +1,13 @@
+[project]
+name = "chat-bot"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.0.0",
+    "azure-ai-inference>=1.0.0b9",
+    "azure-core>=1.30.0",
+    "python-dotenv>=1.0.0",
+]
+
 [tool.vercel]
 entrypoint = "app.py"
